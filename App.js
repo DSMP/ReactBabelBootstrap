@@ -9,7 +9,6 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Content from './Content.js';
 
 var App = function (_React$Component) {
     _inherits(App, _React$Component);
@@ -26,7 +25,6 @@ var App = function (_React$Component) {
             return React.createElement(
                 'div',
                 { className: 'App' },
-                React.createElement(Content, null),
                 React.createElement(
                     'header',
                     { className: 'App-header' },
